@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@tailwind bases;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+
+    .laravue {
+       @apply bg-blue-600 font-bold;
+    }
+
+}
