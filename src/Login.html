@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body class="bg-gray-100 w-screen h-screen flex items-center justify-center">
+    <div class="bg-white h-120 w-100 flex items-center flex-col flex-wrap justify-center space-y-4 rounded-lg border-2 border-gray-800 shadow-xl">
+        <h2 class="mb-10 text-2xl font-bold text-black text-center">Login</h2>
+
+        <div class="w-5/6 flex flex-col flex-wrap space-y-1">
+            <label for="email" class="text-lg">Email</label>
+            <input
+            type="email"
+            class="w-full bg-gray-50 border border-gray-400 focus:outline-none focus:border-blue-500 focus:ring-blue-500 focus:ring-2 focus:ring-opacity-20 rounded px-4 py-2 text-base text-gray-800 placeholder-gray-500 transition duration-200 ease-in-out"
+            placeholder="Digite seu email"
+            name="email"
+            id="email">
+
+            <label for="password" class="text-lg">Senha</label>
+            <input
+            type="password"
+            class="w-full bg-gray-50 border border-gray-400 focus:outline-none focus:border-blue-500 focus:ring-blue-500 focus:ring-2 focus:ring-opacity-20 rounded px-4 py-2 text-base text-gray-800 placeholder-gray-500 transition duration-200 ease-in-out"
+            placeholder="Digite sua senha"
+            name="password"
+            id="password">
+
+            <a href="#" class="text-right text-gray-600 font-semibold cursor-pointer mt-2 hover:underline">Esqueci Minha Senha</a>
+        </div>
+
+        <button class="w-5/6 m-4 mt-10 hover:bg-blue-800 cursor-pointer bg-blue-500 px-6 py-2 rounded shadow-md text-gray-100 text-lg transition duration-300 ease-in-out">Login</button>
+
+    </div>
+</body>
+</html>
